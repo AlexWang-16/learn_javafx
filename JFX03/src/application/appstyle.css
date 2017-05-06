@@ -17,3 +17,7 @@
  	-fx-text-align: center;
  }
 
+/* Scene styling */
+.root{
+	-fx-background-color: gray;
+} 
