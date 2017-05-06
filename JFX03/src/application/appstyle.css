@@ -1,0 +1,19 @@
+/*JavaFX styling uses "-fx-Property" syntax to specify attributes and values 
+ * 
+ * The way elements are specified in this CSS file is the same as web development*/
+ 
+ /*Class type specifications*/
+ .button{
+ 	-fx-font-size: 14px;
+ 	-fx-background-color: rgba(0, 0, 0, 0.8); /*Styling can be done via RGBA or specifying the colour*/
+ 	-fx-text-fill: white;
+ 	-fx-padding: 2 2 2 2;
+ 	
+ }
+ 
+ /* Specific element modifications */
+ #randomNumberResult{
+ 	-fx-font-size: 35px;
+ 	-fx-text-align: center;
+ }
+
