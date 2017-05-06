@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!-- prefHeight and prefWidth is the height and width of the window -->
+
+<AnchorPane prefHeight="163.0" prefWidth="151.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button layoutX="43.0" layoutY="120.0" mnemonicParsing="false" onAction="#generateRandom" text="Generate" />
+      <Label fx:id="randomNumberResult" layoutX="53.0" layoutY="58.0" prefHeight="35.0" prefWidth="45.0" textAlignment="CENTER">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
