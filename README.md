@@ -15,3 +15,6 @@ An calculator application with interface generated using Scene Builder and learn
 
 ### JFX05
 A simple login screen that takes a username: user and password: pass to display some content. If the login information is incorrect, an error message is displayed.
+
+### JFX06
+JFX05 with an image added to the scene and a button with image
