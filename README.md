@@ -9,3 +9,6 @@ A Simple JavaFX GUI Application that randomly generates numbers by the click of 
 
 ### JFX03
 JFX02 application extended to use CSS stylesheet for the entire app for improved modularity and fine tuned styling.
+
+### JFX04
+An calculator application with interface generated using Scene Builder and learning how to program logic in Model as well as Controller methods for data handling.
