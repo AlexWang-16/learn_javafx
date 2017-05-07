@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import java.lang.*?>
+
+<!-- Attn5:New Import for javafx collections -->
+<?import javafx.collections.*?>
+
+<AnchorPane prefHeight="114.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <!--  Attn6: Original combo box. If loading programatically using ObservableList.
+      		
+      		<ComboBox fx:id="combobox" layoutX="45.0" layoutY="30.0" onAction="#comboChange" prefWidth="150.0" promptText="Select Name" />
+      -->
+      
+      <!-- Attn7: Loading combobox data directly in FXML -->
+      <ComboBox fx:id="combobox" layoutX="45.0" layoutY="30.0" onAction="#comboChange" prefWidth="150.0" promptText="Select Name">
+      	<items>
+      		<FXCollections fx:factory="observableArrayList">
+      			<String fx:value="Tom" /> 
+      			<String fx:value="Ken" />
+      			<String fx:value="Ben" />
+      			<String fx:value="Sam" />
+      		</FXCollections>
+      	</items>
+      </ComboBox>
+      <Label fx:id="selectedName" layoutX="88.0" layoutY="65.0" prefHeight="27.0" prefWidth="64.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
