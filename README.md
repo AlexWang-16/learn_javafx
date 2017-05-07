@@ -12,3 +12,6 @@ JFX02 application extended to use CSS stylesheet for the entire app for improved
 
 ### JFX04
 An calculator application with interface generated using Scene Builder and learning how to program logic in Model as well as Controller methods for data handling.
+
+### JFX05
+A simple login screen that takes a username: user and password: pass to display some content. If the login information is incorrect, an error message is displayed.
