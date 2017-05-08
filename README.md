@@ -1,7 +1,7 @@
 # learn_javafx
 Code samples and experimentation while learning JavaFX. Tutorials are numbered and progress from simple to more complex examples.
 
-Note: I do not own these examples. They examples that I learn and modify from [ProgrammingKnowledge](https://www.youtube.com/playlist?list=PLS1QulWo1RIaUGP446_pWLgTZPiFizEMq "JavaFX Tutorial Playlist by ProgrammingKnowledge")
+Note: I do not own these examples. They examples from following and/or modifying tutorials from [ProgrammingKnowledge](https://www.youtube.com/playlist?list=PLS1QulWo1RIaUGP446_pWLgTZPiFizEMq "JavaFX Tutorial Playlist by ProgrammingKnowledge").
 
 ### JFX01
 A simple JavaFX GUI Application made purely with java
