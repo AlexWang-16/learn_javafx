@@ -1,7 +1,11 @@
-# learn_javafx
+# Learning JavaFX
 Code samples and experimentation while learning JavaFX. Tutorials are numbered and progress from simple to more complex examples.
 
 Note: These examples are from me following and/or modifying tutorials from [ProgrammingKnowledge](https://www.youtube.com/playlist?list=PLS1QulWo1RIaUGP446_pWLgTZPiFizEMq "JavaFX Tutorial Playlist by ProgrammingKnowledge").
+
+## Requirements
+1. [Install Scene Builder](http://gluonhq.com/products/scene-builder/)
+2. [Install e(fx)lipse JavaFX Runtime for eclipse](http://www.eclipse.org/efxclipse/install.html#for-the-lazy)
 
 ### JFX01
 A simple JavaFX GUI Application made purely with java
@@ -29,3 +33,6 @@ A demo focusing on how ListView works. ListView is Java's term for select box in
 
 ### JFX09
 A demo showing how TreeView works. TreeView is the familiar directory structure you see when navigating folders in windows. The demo shows how to include icons and how to create the structure. Each TreeItem is represented as a node of the root node.
+
+### JFX10
+An extension to JFX09 where MouseEvents are implemented. After linking "On Mouse Click" for TreeView in Scene Builder with a newly created mouseClick() method in the controller, the name of the node clicked in the TreeView will be printed in the console.
