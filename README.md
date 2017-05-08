@@ -6,6 +6,7 @@ Note: These examples are from me following and/or modifying tutorials from [Prog
 ## Requirements
 1. [Install Scene Builder](http://gluonhq.com/products/scene-builder/)
 2. [Install e(fx)lipse JavaFX Runtime for eclipse](http://www.eclipse.org/efxclipse/install.html#for-the-lazy)
+3. Set the path to SceneBuilder executable under Preferences > JavaFX in Eclipse preferences.
 
 ### JFX01
 A simple JavaFX GUI Application made purely with java
