@@ -24,3 +24,6 @@ This project focuses on the use of Combo box (a select box) and ObservableList, 
 
 ### JFX08
 A demo focusing on how ListView works. ListView is Java's term for select box in HTML. It can be a single or multiselect listbox. This demo also demonstrates how to retrieve selected items as well as adding items to the list after an event has triggered.
+
+### JFX09
+A demo showing how TreeView works. TreeView is the familiar directory structure you see when navigating folders in windows. The demo shows how to include icons and how to create the structure. Each TreeItem is represented as a node of the root node.
