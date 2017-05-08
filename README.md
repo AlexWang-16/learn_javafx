@@ -37,3 +37,6 @@ A demo showing how TreeView works. TreeView is the familiar directory structure 
 
 ### JFX10
 An extension to JFX09 where MouseEvents are implemented. After linking "On Mouse Click" for TreeView in Scene Builder with a newly created mouseClick() method in the controller, the name of the node clicked in the TreeView will be printed in the console.
+
+### JFX11
+A demo of file chooser which contains 2 buttons. The first button allows choosing only 1 file while the other allows multiple file selection. This demo also shows ways to restrict file type selection as well as the initial directory for the file chooser.
