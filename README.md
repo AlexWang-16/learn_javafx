@@ -21,3 +21,6 @@ JFX05 with an image added to the scene and a button with image
 
 ### JFX07
 This project focuses on the use of Combo box (a select box) and ObservableList, a container type that listens for action events to check for updates, adding or removing items from its list (perfect for interfaces).
+
+### JFX08
+A demo focusing on how ListView works. ListView is Java's term for select box in HTML. It can be a single or multiselect listbox. This demo also demonstrates how to retrieve selected items as well as adding items to the list after an event has triggered.
