@@ -42,4 +42,4 @@ An extension to JFX09 where MouseEvents are implemented. After linking "On Mouse
 A demo of file chooser which contains 2 buttons. The first button allows choosing only 1 file while the other allows multiple file selection. This demo also shows ways to restrict file type selection as well as the initial directory for the file chooser.
 
 ### JFX12
-A demo that showcases the use of JavaFX Properties, a wrapper class that allows implementaiton of listeners that perform an action when the property of a class is updated. It also supports binding of multiple JavaFX Properties.
+A demo that showcases the use of JavaFX Properties, a wrapper class that allows implementaiton of listeners that perform an action when the property of a class is updated.
