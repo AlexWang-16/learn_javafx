@@ -52,3 +52,6 @@ A demo showing how bi-directional binding works. The original example uses `Numb
 
 ### JFX15
 A demo showing how to create a menubar and its components: MenuSeparateItem, MenuItem, and Menus.
+
+### JFX16
+A demo that shows how checkboxes are used and how to obtain and print out their values
