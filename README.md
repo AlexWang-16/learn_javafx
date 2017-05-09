@@ -46,3 +46,6 @@ A demo that showcases the use of JavaFX Properties, a wrapper class that allows 
 
 ### JFX13
 A demo showing how to work with progress bars and performing uni-directional binding with JavaFX Properties.
+
+### JFX14
+A demo showing how bi-directional binding works. The original example uses `NumberFormat.getNumberInstance()` instead of `converter` as shown on line 43 of MainController.java. It is a separate approach to solving the same problem, but the NumberFormat method creates a warning about binding being changed while NumberStringConverter works flawlessly by ensuring the same type is kept in generics (the slider is of type DoubleProperty which implements `Property<Number>` and converter of type `StringConverter<Number>`ensures they are the same type.
