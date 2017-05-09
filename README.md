@@ -43,3 +43,6 @@ A demo of file chooser which contains 2 buttons. The first button allows choosin
 
 ### JFX12
 A demo that showcases the use of JavaFX Properties, a wrapper class that allows implementaiton of listeners that perform an action when the property of a class is updated.
+
+### JFX13
+A demo showing how to work with progress bars and performing uni-directional binding with JavaFX Properties.
