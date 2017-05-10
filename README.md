@@ -63,3 +63,6 @@ A demo on radio buttons: Setting radio button group, getting results and display
 
 ### JFX18
 A demo on creating a table using TableView and TableColumn. Then, populate objects generated in memory into the table.
+
+### JFX19
+A demo on how to use a date picker
