@@ -1,6 +1,11 @@
 /*JavaFX styling uses "-fx-Property" syntax to specify attributes and values 
  * 
  * The way elements are specified in this CSS file is the same as web development*/
+
+/* Scene styling */
+.root{
+	-fx-background-color: gray;
+} 
  
  /*Class type specifications*/
  .button{
@@ -14,6 +19,5 @@
  /* Specific element modifications */
  #randomNumberResult{
  	-fx-font-size: 35px;
- 	-fx-text-align: center;
+ 	-fx-alignment: center;
  }
-

@@ -10,7 +10,7 @@ import javafx.fxml.FXMLLoader;
 /*Demo showing how to build layout using FXML file and Scene Builder to reduce
 development time*/
 
-public class SceneBuilder extends Application {
+public class Main extends Application {
 
 	public static void main(String[] args) {
 		launch(args);
@@ -25,7 +25,7 @@ public class SceneBuilder extends Application {
 		 * FXML file path convention: The first slash is the root of the project. Then, the
 		 * package name is specified and finally, the name of the file.*/			
 		
-		Parent root = FXMLLoader.load(SceneBuilder.class.getResource("/application/Main.fxml"));
+		Parent root = FXMLLoader.load(Main.class.getResource("/application/Main.fxml"));
 		
 		Scene scene = new Scene(root);
 		
