@@ -57,3 +57,9 @@ A demo showing how to create a menubar and its components: MenuSeparateItem, Men
 
 ### JFX16
 A demo that shows how checkboxes are used and how to obtain and print out their values
+
+### JFX17
+A demo on radio buttons: Setting radio button group, getting results and displaying them over a label.
+
+### JFX18
+A demo on creating a table using TableView and TableColumn. Then, populate objects generated in memory into the table.
