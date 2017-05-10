@@ -3,7 +3,7 @@ Code samples and experimentation while learning JavaFX. Tutorials are numbered a
 
 Beginning with JFX02, all of those apps uses Scene Builder, a development tool to speed up GUI development process by offering drag and drop of GUI elements on screen.
 
-Note: These examples are from me following and/or modifying tutorials from [ProgrammingKnowledge](https://www.youtube.com/playlist?list=PLS1QulWo1RIaUGP446_pWLgTZPiFizEMq "JavaFX Tutorial Playlist by ProgrammingKnowledge").
+Note: These examples are from me following and/or modifying tutorials from [ProgrammingKnowledge](https://www.youtube.com/playlist?list=PLS1QulWo1RIaUGP446_pWLgTZPiFizEMq "JavaFX Tutorial Playlist by ProgrammingKnowledge"). Excercise numbers may not match up to Youtube videos since some tutorials are separated into 2 videos. For best result, read the excercise description.
 
 ## Requirements
 1. [Install Scene Builder](http://gluonhq.com/products/scene-builder/)
@@ -69,3 +69,6 @@ A demo on how to use a date picker.
 
 ### JFX20
 A demo on how to use WebView and WebEngine to render webpages, HTML and other web technologies.
+
+### JFX21
+A demo on creating PieCharts.
