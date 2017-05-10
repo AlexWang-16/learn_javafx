@@ -75,3 +75,6 @@ A demo on creating PieCharts.
 
 ### JFX22
 A demo of implementing event handling with PieCharts. This program allows the user to generate a pie chart with preloaded data in memory by the click of a button. It will also report the percentage of each piece in the pie chart when the user clicks on it.
+
+### JFX23
+A demo of how to implement Charts that utilize X and Y axis. This demo will utilize a line chart and how to add data points, customize X and Y-Axis labeling and provide a name for the series.
