@@ -56,7 +56,7 @@ A demo showing how bi-directional binding works. The original example uses `Numb
 A demo showing how to create a menubar and its components: MenuSeparateItem, MenuItem, and Menus.
 
 ### JFX16
-A demo that shows how checkboxes are used and how to obtain and print out their values
+A demo that shows how checkboxes are used and how to obtain and print out their values.
 
 ### JFX17
 A demo on radio buttons: Setting radio button group, getting results and displaying them over a label.
@@ -65,4 +65,7 @@ A demo on radio buttons: Setting radio button group, getting results and display
 A demo on creating a table using TableView and TableColumn. Then, populate objects generated in memory into the table.
 
 ### JFX19
-A demo on how to use a date picker
+A demo on how to use a date picker.
+
+### JFX20
+A demo on how to use WebView and WebEngine to render webpages, HTML and other web technologies.
