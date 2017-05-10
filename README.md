@@ -72,3 +72,6 @@ A demo on how to use WebView and WebEngine to render webpages, HTML and other we
 
 ### JFX21
 A demo on creating PieCharts.
+
+### JFX22
+A demo of implementing event handling with PieCharts. This program allows the user to generate a pie chart with preloaded data in memory by the click of a button. It will also report the percentage of each piece in the pie chart when the user clicks on it.
