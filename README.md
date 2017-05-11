@@ -84,3 +84,6 @@ A demo expanding on JFX23 on how to add multiple lines to line charts.
 
 ### JFX25
 A demo expanding on JFX23 on how to add event handling for line charts.
+
+### JFX26
+A demo showing how to implement video in a Java APP using JavaFX
