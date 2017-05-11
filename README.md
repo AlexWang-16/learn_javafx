@@ -81,3 +81,6 @@ A demo of how to implement Charts that utilize X and Y axis. This demo will util
 
 ### JFX24
 A demo expanding on JFX23 on how to add multiple lines to line charts.
+
+### JFX25
+A demo expanding on JFX23 on how to add event handling for line charts.
