@@ -44,7 +44,7 @@ public class MainController implements Initializable{
 		DoubleProperty width = mediaView.fitWidthProperty();
 		DoubleProperty height = mediaView.fitHeightProperty();
 		
-		/* Attn 3: Preserving aspect ratio while adjusting size of video to window.
+		/* Attn 4: Preserving aspect ratio while adjusting size of video to window.
 		 * 		   This is done by binding the media view's width and height
 		 * 			to the scene (video's) width and height.
 		 * 
@@ -55,7 +55,7 @@ public class MainController implements Initializable{
 		 *  		the media view's width and height and mapping it to the scene's
 		 *  		width and height.
 		 *  
-		 *  		It takes 2 arguments, the root bean (object to map to) and the 
+		 *  		Inight takes 2 arguments, the root bean (object to map to) and the 
 		 *  		"steps" (property names to reach the property). */
 		width.bind(Bindings.selectDouble(mediaView.sceneProperty(), "width"));
 		height.bind(Bindings.selectDouble(mediaView.sceneProperty(), "height"));
