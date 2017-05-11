@@ -87,3 +87,6 @@ A demo expanding on JFX23 on how to add event handling for line charts.
 
 ### JFX26
 A demo showing how to implement video in a Java APP using JavaFX
+
+### JFX27
+An extension to JFX26 demo that implements media playback control functionality using JavaFX.
