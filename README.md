@@ -78,3 +78,6 @@ A demo of implementing event handling with PieCharts. This program allows the us
 
 ### JFX23
 A demo of how to implement Charts that utilize X and Y axis. This demo will utilize a line chart and how to add data points, customize X and Y-Axis labeling and provide a name for the series.
+
+### JFX24
+A demo expanding on JFX23 on how to add multiple lines to line charts.
