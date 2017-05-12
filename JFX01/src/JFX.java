@@ -38,7 +38,7 @@ public class JFX extends Application {
 		
 		Button btn1 = new Button("click me 2");
 		//Demo of coding event handler using lambda expression (single line statement)
-		btn1.setOnAction( e -> System.out.println("Hello World"));
+		btn1.setOnAction( e -> System.out.println("Click me 2 pressed"));
 		
 		
 		//Demo of multiple statements in lambda expression

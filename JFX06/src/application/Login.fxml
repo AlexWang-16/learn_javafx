@@ -24,7 +24,7 @@ Scroll down below and search for <ImageView> tag to see in more detail
       <Button layoutX="121.0" layoutY="227.0" mnemonicParsing="false" onAction="#Login" text="Login">
       	<!-- Attn4: Buttons with Image. Add <graphics> tag and wrap it around <ImageView>, <image>, and <Image url="..."> as Attn2. -->
       	<graphic>
-      		<ImageView fitWidth="50" fitHeight="50">
+      		<ImageView fitHeight="50" fitWidth="50">
       			<image>
       				<Image url="img/windows_logo.png" />
       			</image>
@@ -33,7 +33,7 @@ Scroll down below and search for <ImageView> tag to see in more detail
       </Button>      
       <TextField fx:id="txtUserName" layoutX="67.0" layoutY="115.0" promptText="UserName" />
       <PasswordField fx:id="txtPassword" layoutX="67.0" layoutY="165.0" promptText="Password" />
-      <Label fx:id="lblStatus" layoutX="67.0" layoutY="45.0" prefHeight="36.0" prefWidth="167.0" text="Status" textFill="#c91b00">
+      <Label fx:id="lblStatus" layoutX="60.0" layoutY="66.0" prefHeight="36.0" prefWidth="167.0" text="Status" textFill="#c91b00">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -42,8 +42,10 @@ Scroll down below and search for <ImageView> tag to see in more detail
 		<!-- Attn2: Add image tag to include link to src file -->
       	<image>
       		<!-- Att3: url image does not have to be a local source file. It can be a web link to a remote image. -->
-            <Image url="img/apple_logo.jpeg" />
+            <Image url="@../img/apple_logo.jpeg" />
       	</image>
       </ImageView>
+      <Label layoutX="26.0" layoutY="14.0" text="Username: user" />
+      <Label layoutX="26.0" layoutY="31.0" text="Password: pass" />
    </children>
 </AnchorPane>

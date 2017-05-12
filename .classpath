@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="JFX01/src"/>
+	<classpathentry kind="src" path="JFX02/src"/>
+	<classpathentry kind="src" path="JFX03/src"/>
+	<classpathentry kind="src" path="JFX04/src"/>
+	<classpathentry kind="src" path="JFX05/src"/>
+	<classpathentry kind="src" path="JFX06/src"/>
+	<classpathentry kind="src" path="JFX07/src"/>
+	<classpathentry kind="src" path="JFX08/src"/>
+	<classpathentry kind="src" path="JFX09/src"/>
+	<classpathentry kind="src" path="JFX10/src"/>
+	<classpathentry kind="src" path="JFX11/src"/>
+	<classpathentry kind="src" path="JFX12/src"/>
+	<classpathentry kind="src" path="JFX13/src"/>
+	<classpathentry kind="src" path="JFX14/src"/>
+	<classpathentry kind="src" path="JFX15/src"/>
+	<classpathentry kind="src" path="JFX16/src"/>
+	<classpathentry kind="src" path="JFX17/src"/>
+	<classpathentry kind="src" path="JFX18/src"/>
+	<classpathentry kind="src" path="JFX19/src"/>
+	<classpathentry kind="src" path="JFX20/src"/>
+	<classpathentry kind="src" path="JFX21/src"/>
+	<classpathentry kind="src" path="JFX22/src"/>
+	<classpathentry kind="src" path="JFX23/src"/>
+	<classpathentry kind="src" path="JFX24/src"/>
+	<classpathentry kind="src" path="JFX25/src"/>
+	<classpathentry kind="src" path="JFX26/src"/>
+	<classpathentry kind="src" path="JFX27/src"/>
+	<classpathentry kind="src" path="JFX28/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="JFX05/bin"/>
+</classpath>

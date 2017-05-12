@@ -24,16 +24,19 @@ public class MainController {
 	public void Login(ActionEvent event) throws Exception{
 		if(txtUserName.getText().equals("user") && txtPassword.getText().equals("pass")){
 				lblStatus.setText("Login success");
-				
-				/* Opens another window (stage) and displays contents after logining in */
+				 
+				/* Attn 3: Opens another window (stage) and displays contents after logining in */
 				Stage primaryStage = new Stage();
 				Parent root = FXMLLoader.load(getClass().getResource("/application/Main.fxml"));
-				Scene scene = new Scene(root, 400, 400);
+				Scene scene = new Scene(root);
 				scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 				primaryStage.setScene(scene);
 				primaryStage.show();
 				
-				/* Close the login window to make transition appear seamless.
+				/* Attn 4: 
+				 * The following is for proof of concept.
+				 * 
+				 * Close the login window to make transition appear seamless.
 				 * The code below will latch onto a GUI element in the login screen and use getScene()
 				 * to grab its Scene information and then traverse into its Window (aka. Stage)
 				 * We can then call close to close that stage from within a controller method.
