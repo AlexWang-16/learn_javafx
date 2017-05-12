@@ -6,9 +6,10 @@ Beginning with JFX02, all of those apps uses Scene Builder, a development tool t
 Note: These examples are from me following and/or modifying tutorials from [ProgrammingKnowledge](https://www.youtube.com/playlist?list=PLS1QulWo1RIaUGP446_pWLgTZPiFizEMq "JavaFX Tutorial Playlist by ProgrammingKnowledge"). Excercise numbers may not match up to Youtube videos since some tutorials are separated into multiple videos. For best result, read the excercise description.
 
 ## Requirements
-1. [Install Scene Builder](http://gluonhq.com/products/scene-builder/)
-2. [Install e(fx)lipse JavaFX Runtime for eclipse](http://www.eclipse.org/efxclipse/install.html#for-the-lazy)
-3. Set the path to SceneBuilder executable under Preferences > JavaFX in Eclipse preferences.
+1. [Install Eclipse IDE](http://www.eclipse.org/downloads/)
+2. [Install Scene Builder](http://gluonhq.com/products/scene-builder/)
+3. [Install e(fx)lipse JavaFX Runtime for eclipse](http://www.eclipse.org/efxclipse/install.html#for-the-lazy)
+4. Set the path to SceneBuilder executable under Preferences > JavaFX in Eclipse preferences.
 
 ### JFX01
 A simple JavaFX GUI Application made purely with java
