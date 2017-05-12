@@ -12,6 +12,8 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class MainController {
+	private Stage window;
+	
 	@FXML
 	private Label lblStatus;
 	
@@ -21,25 +23,32 @@ public class MainController {
 	@FXML
 	private TextField txtPassword;
 	
+	/* Attn 1: Accepts the window from Main.java to allow scene modifications */
+	public void setStage(Stage window){
+		this.window = window;
+	}
+	
 	public void Login(ActionEvent event) throws Exception{
 		if(txtUserName.getText().equals("user") && txtPassword.getText().equals("pass")){
 				lblStatus.setText("Login success");
 				
-				/* Opens another window (stage) and displays contents after logining in */
-				Stage primaryStage = new Stage();
 				Parent root = FXMLLoader.load(getClass().getResource("/application/Main.fxml"));
-				Scene scene = new Scene(root, 400, 400);
-				scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-				primaryStage.setScene(scene);
-				primaryStage.show();
+				Scene scene = new Scene(root);
 				
-				/* Close the login window to make transition appear seamless.
+				/* Attn 2: Change the window to display Main.fxml layout */
+				window.setScene(scene);
+
+				
+				/* Alternative way of getting the current window
 				 * The code below will latch onto a GUI element in the login screen and use getScene()
 				 * to grab its Scene information and then traverse into its Window (aka. Stage)
 				 * We can then call close to close that stage from within a controller method.
+				 * 
+				 * 
+				 * Stage stage = (Stage) lblStatus.getScene().getWindow();
+				 * stage.close();
 				 */
-				Stage stage = (Stage) lblStatus.getScene().getWindow();
-				stage.close();
+				
 		}
 		else {
 			lblStatus.setText("Login Failed");
