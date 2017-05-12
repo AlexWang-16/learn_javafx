@@ -18,7 +18,7 @@
          <children>
             <Button mnemonicParsing="false" onAction="#play" text="Play" />
             <Button mnemonicParsing="false" onAction="#pause" text="Pause" />
-            <Button mnemonicParsing="false" onAction="#start" text="Stop" />
+            <Button mnemonicParsing="false" onAction="#stop" text="Stop" />
             <Button mnemonicParsing="false" onAction="#fast_motion" text="2x" />
             <Button mnemonicParsing="false" onAction="#normal_motion" text="1x" />
             <Button mnemonicParsing="false" onAction="#slow_motion" text="0.5x" />
