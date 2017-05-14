@@ -97,3 +97,6 @@ A demo that builds ontop of JFX27 by adding a Volume slider to the app. Addition
 
 ### JFX29
 A demo that shows how to create alert boxes. This demo is based on *TheNewBoston's* [JavaFX Tutorial #5](https://www.youtube.com/watch?v=SpL3EToqaXA).
+
+### JFX30
+A modified version of JFX29 that shows how to create a Confirm box. The confirm box will hold the user's response as one of its fields and return it to main() for further processing.
