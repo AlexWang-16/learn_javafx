@@ -87,7 +87,7 @@ A demo expanding on JFX23 on how to add multiple lines to line charts.
 A demo expanding on JFX23 on how to add event handling for line charts.
 
 ### JFX26
-A demo showing how to implement video in a Java APP using JavaFX
+A demo showing how to implement video in a Java APP using JavaFX.
 
 ### JFX27
 An extension to JFX26 demo that implements media playback control functionality using JavaFX.
@@ -99,4 +99,4 @@ A demo that builds ontop of JFX27 by adding a Volume slider to the app. Addition
 A demo that shows how to create alert boxes. This demo is based on *TheNewBoston's* [JavaFX Tutorial #5](https://www.youtube.com/watch?v=SpL3EToqaXA).
 
 ### JFX30
-A modified version of JFX29 that shows how to create a Confirm box. The confirm box will hold the user's response as one of its fields and return it to main() for further processing.
+A modified version of JFX29 that shows how to create a Confirm box. The confirm box will hold the user's response as one of its fields and return it to main() for further processing. This demo is based on *TheNewBoston's* [JavaFX Tutorial #6](https://www.youtube.com/watch?v=HFAsMWkiLvg).
